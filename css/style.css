@@ -1,0 +1,282 @@
+body {
+    font-family: sans-serif;
+}
+
+.nav-1 {
+    background-color: blue;
+}
+
+.nav-1 .align {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+    color: #c5c4c2;
+    padding: 5px;
+    font-size: small;
+
+
+}
+
+.nav-1 .align .followed {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.nav-2 {
+    background-color: #079e9e;
+}
+
+.nav-2 .align {
+    background-color: #079e9e;
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+
+
+}
+
+
+
+
+/* .nav-2 .mail-logo {
+    margin: 30px 50px;
+    
+} */
+
+.nav-2 .title,
+.nav-2 .mail-logo {
+    padding: 30px 0;
+}
+
+.nav-2 .title {
+    font-size: 50px;
+}
+
+.nav-bar {
+    margin-bottom: 20px;
+}
+
+/* .trusted {
+    display: flex;
+    justify-content: flex-start;
+} */
+
+/* .followed {
+    display: flex;
+}  */
+
+/* .title {
+    float: left;
+    margin-right: 800px;
+
+
+} */
+
+.nav-3 {
+    background-color: wheat;
+    border-bottom: 1px solid gray;
+}
+
+.nav-3 .align {
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+.nav-3 .align .links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+
+
+.mail-logo button {
+    padding: 10px;
+    display: flex;
+    background-color: #ebeb16;
+    border: 0;
+
+}
+
+/* article .container-1,
+article .container-2 {
+    display: f;
+
+} */
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+article .container-1 {
+    width: 500px;
+
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    background-color: #079e9e;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+
+    text-align: center;
+}
+
+/* .container-1 .news {
+    flex: 1;
+} */
+
+/* .followed {
+    float: right;
+} */
+
+.container-3 .sign {
+    padding: 30px;
+    text-align: center;
+}
+
+.container-3 .Join {
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-3 .email-address {
+    text-align: center;
+}
+
+footer .social {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer .about {
+    display: flex;
+    /* justify-content: space-between;
+    padding: 20px;
+    margin: 10px;*/
+    text-align: left;
+    gap: 8rem;
+
+
+}
+
+footer .copyright {
+    text-align: left;
+    padding: 5px;
+    font-size: x-small;
+
+
+}
+
+footer .footer-button {
+    display: block;
+    margin: 16px;
+    padding-bottom: 10px;
+}
+
+/* .nav-bar .align {
+    width: 750px;
+    margin: 0 auto;
+} */
+
+article,
+.container-3,
+footer {
+    width: 750px;
+    margin: 0 auto;
+}
+
+footer .Connect {
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+
+a:link {
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+/* .btn {
+    display: block;
+} */
+
+.btn {
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.btn .btnclass {
+    padding: 15px;
+    background-color: #5c5cfd;
+    color: white;
+    border: 0;
+}
+
+.news li {
+    display: flex;
+
+}
+
+.trending-articles li {
+    display: flex;
+}
+
+.news li .news-pic {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.trending-articles li img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.news li .news-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.news li .date-category {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.news li .date-category .news-date {
+    margin-right: 15px;
+}
+
+.news li .info {
+    margin-bottom: 10px;
+    font-size: x-small;
+}
+
+.container-2 .trending {
+    margin-bottom: 10px;
+}
